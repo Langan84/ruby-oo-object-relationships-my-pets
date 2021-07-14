@@ -37,9 +37,9 @@ attr_reader :name, :species
     Dog.all.select {|dog| dog.owner == self}
   end
 
-  # def buy_cat(cat)
+  def buy_cat(cat)
   #   Cat.new 
   #   @cats << cat
-  # end
+  end
 
 end 
